@@ -1,0 +1,38 @@
+import { Link } from 'react-router-dom'
+import sh1 from '../../assets/sh1.png'
+import sh2 from '../../assets/sh2.png'
+import sh3 from '../../assets/sh3.png'
+import Container from '../Container'
+import Flex from '../Flex'
+import Images from '../Images'
+
+
+const Ads = () => {
+    return (
+        <div className="py-[135px]">
+            <Container>
+                <Flex className="justify-between gap-x-8">
+                    <div className="leftSide w-1/2 relative">
+                        <Link to={'/shop'}>
+                        <Images imgSrc={sh1} />
+                        </Link>
+                    </div>
+                    <div className="rightSide w-1/2 relative">
+                        <div className="pb-8">
+                            <Link to={'/shop'}>
+                            <Images imgSrc={sh2} />
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to={'/shop'}>
+                            <Images imgSrc={sh3} />
+                            </Link>
+                        </div>
+                    </div>
+                </Flex>
+            </Container>
+        </div>
+    )
+}
+
+export default Ads
