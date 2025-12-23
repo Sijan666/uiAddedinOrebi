@@ -8,7 +8,7 @@ import { FaUser } from "react-icons/fa";
 import { GoTriangleDown } from "react-icons/go";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { Menu, MenuButton, MenuItems, Popover, PopoverButton, PopoverPanel } from '@headlessui/react';
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react';
 
 const SearchBar = () => {
     return (
