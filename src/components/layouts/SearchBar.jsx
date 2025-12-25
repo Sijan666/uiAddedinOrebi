@@ -24,7 +24,7 @@ const SearchBar = () => {
                                 <HugeiconsIcon icon={MenuTwoLineIcon} color='text-[#262626]' strokeWidth={3} className='inline-block mr-3'/> 
                                 Shop by Category
                             </PopoverButton>
-                            <PopoverPanel anchor="bottom" className="flex flex-col bg-black p-[15px] w-[170px] text-white rounded-[20px]">
+                            <PopoverPanel anchor="bottom" className="flex flex-col bg-gray-400 p-[15px] mt-2 w-[170px] text-white rounded-[20px] font-bold">
                                 <Link to={'/shop'} className='mb-2'>
                                     Shop
                                 </Link>
