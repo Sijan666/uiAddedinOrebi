@@ -15,6 +15,8 @@ const SearchBar = () => {
     const [ show , setShow] = useState(false)
     const [ logshow , logsetShow] = useState(false)
 
+
+
     return (
         <>
         <div className="bg-[#F5F5F3] border border-t-[#979797] border-b-[#979797]">

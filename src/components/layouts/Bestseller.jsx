@@ -42,7 +42,7 @@ const Bestseller = () => {
                 <h3 className="text-[39px] text-[#262626] font-bold block pb-[30px]">Our Bestsellers</h3>
                     {/* <Slider {...settings}> */}
                     <Flex>
-                        {allData.slice(5,9).map((item)=>(
+                        {allData.slice(0,4).map((item)=>(
                         <div className="w-1/4">
                             <Product
                             productImg={item.thumbnail}
