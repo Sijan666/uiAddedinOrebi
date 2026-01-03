@@ -5,7 +5,7 @@ import NewArrivals from "../layouts/NewArrivals"
 import Bestseller from "../layouts/Bestseller"
 import ShopBanner from "../layouts/ShopBanner"
 import Specialoffer from "../layouts/Specialoffer"
-import Mixit from "../layouts/Mixit"
+// import Mixit from "../layouts/Mixit"
 
 
 
@@ -19,6 +19,7 @@ const Home = () => {
         <Bestseller/>
         <ShopBanner/>
         <Specialoffer/>
+        {/* <Mixit/> */}
         </>
     )
 }
