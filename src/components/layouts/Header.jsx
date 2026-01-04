@@ -12,12 +12,12 @@ const Header = () => {
         <>
         <Container className={'py-8'}>
             <Flex>
-                <div className="logo w-[40%]">
+                <div className="logo lg:w-[40%]">
                     <Link to={'/'}>
                     <Images imgSrc={Logo}/>
                     </Link>
                 </div>
-                <div className="menuPart w-[60%]">
+                <div className="menuPart lg:w-[60%] mx-auto">
                     <ul className="flex gap-x-10">
                         <li className="text-[#767676] text-[14px] hover:font-bold hover:text-[#62626] duration-300">
                             <Link to={'/'}>

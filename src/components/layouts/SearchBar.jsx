@@ -16,14 +16,13 @@ const SearchBar = () => {
     const [ logshow , logsetShow] = useState(false)
 
 
-
     return (
         <>
-        <div className="bg-[#F5F5F3] border border-t-[#979797] border-b-[#979797]">
-            <Container className={'py-6'}>
-                <Flex className={'lg:justify-between items-center flex-wrap'}>
-                    <div className="iconText flex items-center relative cursor-pointer mx-10">
-                        <div className='pr-3 text-[14px] text-[#262626] flex gap-x-2 items-center ' onClick={()=>setShow(!show)}>
+        <div className="bg-[#F5F5F3] border border-[#979797] border-r-0 border-l-0">
+            <Container className={'lg:py-6 py-2'}>
+                <Flex className={'lg:justify-between justify-between items-center mx-4 '}>
+                    <div className="iconText flex items-center relative cursor-pointer">
+                        <div className='pr-3 text-[14px] text-[#262626] flex gap-x-2 items-center lg:mx-0' onClick={()=>setShow(!show)}>
                             <HugeiconsIcon icon={MenuTwoLineIcon} color='text-[#262626]' strokeWidth={3}/>
                             Shop by Category
                         </div>
@@ -65,12 +64,12 @@ const SearchBar = () => {
                         )}
                     </div>
                     <div className="searchBar mx-auto py-4">
-                        <div className="flex justify-between items-center bg-white border-gray-300 px-5 py-5 w-[600px]">
+                        <div className="flex justify-between items-center bg-white border-gray-300 px-5 py-5 w-[300px]">
                             <input type="text" placeholder="Search Products" className="outline-none placeholder:text-gray-400 text-[#C4C4C4] w-[80%]"/>
                             <button className="cursor-pointer"><FaSearch /></button>
                         </div>
                     </div>
-                    <div className="icons mx-10">
+                    <div className="icons justify-end">
                         <ul className='flex gap-x-2 '>
                             <li>
                                 <Link to={'/login'}>

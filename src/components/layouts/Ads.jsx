@@ -9,7 +9,7 @@ import Images from '../Images'
 
 const Ads = () => {
     return (
-        <div className="py-[135px]">
+        <div className="lg:py-[135px] py-[50px]">
             <Container>
                 <Flex className="flex-wrap lg:flex-nowrap lg:justify-between lg:gap-x-8 gap-y-4">
                     <div className="lg:leftSide lg:w-1/2 relative">
