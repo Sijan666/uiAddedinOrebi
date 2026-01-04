@@ -20,9 +20,9 @@ const SearchBar = () => {
         <>
         <div className="bg-[#F5F5F3] border border-[#979797] border-r-0 border-l-0">
             <Container className={'lg:py-6 py-2'}>
-                <Flex className={'lg:justify-between justify-between items-center mx-4 '}>
+                <Flex className={'lg:justify-between justify-between items-center mx-4 lg:mx-0'}>
                     <div className="iconText flex items-center relative cursor-pointer">
-                        <div className='pr-3 text-[14px] text-[#262626] flex gap-x-2 items-center lg:mx-0' onClick={()=>setShow(!show)}>
+                        <div className='pr-3 text-[14px] text-[#262626] flex gap-x-2 items-center' onClick={()=>setShow(!show)}>
                             <HugeiconsIcon icon={MenuTwoLineIcon} color='text-[#262626]' strokeWidth={3}/>
                             Shop by Category
                         </div>
@@ -63,8 +63,8 @@ const SearchBar = () => {
                             </div>
                         )}
                     </div>
-                    <div className="searchBar mx-auto py-4">
-                        <div className="flex justify-between items-center bg-white border-gray-300 px-5 py-5 w-[300px]">
+                    <div className="searchBar">
+                        <div className="flex justify-between items-center bg-white border-gray-300 px-5 py-5 lg:w-[600px] w-[300px]">
                             <input type="text" placeholder="Search Products" className="outline-none placeholder:text-gray-400 text-[#C4C4C4] w-[80%]"/>
                             <button className="cursor-pointer"><FaSearch /></button>
                         </div>
