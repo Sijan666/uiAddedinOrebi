@@ -40,11 +40,11 @@ const Shop = () => {
     return (
         <>
         <Container className={'py-[125px]'}>
-            <h3 className="text-[39px] text-[#262626] font-bold block pb-5">Products</h3>
+            <h3 className="text-[39px] text-[#262626] font-bold block pb-5">Shop</h3>
             <Flex className={'text-[12px] text-[#767676] gap-x-2'}>
                 <p>Home</p>
                 <FaArrowRight />
-                <p>Products</p>
+                <p>Shop</p>
             </Flex>
         </Container>
         <Container>

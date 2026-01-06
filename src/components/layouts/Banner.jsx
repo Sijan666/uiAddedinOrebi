@@ -34,7 +34,7 @@ const Banner = () => {
         <>
             <Slider {...settings}>
                 <div className="">
-                    <Link to={'/shop'}>
+                    <Link to={'/productinside'}>
                         <Images imgSrc={intro} className={"w-full mx-auto"}/>
                     </Link>
                 </div>
