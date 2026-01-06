@@ -81,9 +81,9 @@ const ProductInside = () => {
                         <div className="flex gap-x-10 items-center">
                             <p className="text-[#262626] font-bold text-base">QUANTITY:</p>
                             <div className="flex gap-x-4 py-1 px-5 border border-[#F0F0F0]">
-                                <button aria-label="Decrement value" onClick={() => { if (count > 1) {dispatch(decrement())}}} className="text-[#767676] text-[20px] cursor-pointer">-</button>
+                                <button aria-label="Decrement value" onClick={() => { if (count > 1) {dispatch(decrement())}}} className="text-[#767676] text-[25px] cursor-pointer">-</button>
                                 <span className="text-[#767676] text-[20px]">{count}</span>
-                                <button aria-label="Increment value" onClick={() => dispatch(increment())} className="text-[#767676] text-[20px] cursor-pointer">+</button>
+                                <button aria-label="Increment value" onClick={() => dispatch(increment())} className="text-[#767676] text-[25px] cursor-pointer">+</button>
                             </div>
                         </div>
                     </div>
