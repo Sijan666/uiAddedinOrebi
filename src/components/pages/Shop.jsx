@@ -14,6 +14,7 @@ import { CiGrid2H } from "react-icons/ci";
 import Product from '../Product';
 import axios from 'axios';
 import Images from '../Images';
+import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink } from '../ui/pagination';
 
 const Shop = () => {
     const containerRef = useRef(null);
@@ -166,6 +167,36 @@ const Shop = () => {
                                 </div>
                                 ))}
                             </Flex>
+                    <Pagination>
+                        {" "}
+                        <PaginationContent>
+                        {" "}
+                        <PaginationItem className="font-sans font-normal text-sm text-[#767676] duration-100">
+                            {" "}
+                            <PaginationLink href="#">1</PaginationLink>{" "}
+                        </PaginationItem>{" "}
+                        <PaginationItem className="font-sans font-normal text-sm text-[#767676] duration-100">
+                            {" "}
+                            <PaginationLink href="#">2</PaginationLink>{" "}
+                        </PaginationItem>{" "}
+                        <PaginationItem className="font-sans font-normal text-sm text-[#767676] duration-100">
+                            {" "}
+                            <PaginationLink href="#">3</PaginationLink>{" "}
+                        </PaginationItem>{" "}
+                        <PaginationItem className="font-sans font-normal text-sm text-[#767676] duration-100">
+                            {" "}
+                            <PaginationLink href="#">4</PaginationLink>{" "}
+                        </PaginationItem>{" "}
+                        <PaginationItem className="font-sans font-normal text-sm text-[#767676] duration-100">
+                            {" "}
+                            <PaginationEllipsis />{" "}
+                        </PaginationItem>{" "}
+                        <PaginationItem className="font-sans font-normal text-sm text-[#767676] duration-100">
+                            {" "}
+                            <PaginationLink href="#">10</PaginationLink>{" "}
+                        </PaginationItem>{" "}
+                        </PaginationContent>{" "}
+                    </Pagination>
                         </div>
                     {/* </div> */}
                 </div>

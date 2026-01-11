@@ -1,0 +1,9 @@
+nav[role="navigation"] {
+    justify-content: start;
+    margin-top: 50px;
+}
+li[data-slot="pagination-item"] {
+    padding: 9px 13px;
+    border: 1px solid #f0f0f0;
+    margin-right: 15px;
+}
